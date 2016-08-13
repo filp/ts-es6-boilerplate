@@ -1,10 +1,10 @@
 # ts-es6-boilerplate
 
-Minimalistic boilerplate for TypeScript projects targeting ES6 (with Babel).
+Minimalistic boilerplate for TypeScript projects targeting ES6 (with Babel). Requires gulp.
 
 Uses `gulp-typescript` for incremental updates when watching the project.
 
-## Instructions:
+## Usage:
 
 ```shell
 $ git clone git@github.com:filp/ts-es6-boilerplate.git
@@ -13,4 +13,7 @@ $ npm i
 
 # Start watching the project for changes:
 $ gulp watch
+
+# Run the built project:
+$ npm start
 ```
